@@ -1,7 +1,7 @@
 > #ZynfoGraph
 
 <p align="center">
-  <img src="https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg" alt="ZynfoGraph Icon" width="120"/>
+  <img src="https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg" alt="ZynfoGraph Icon" width="120" style="border-radius: 50%; border: 2px solid #ccc;" />
 </p>
 
 **ZynfoGraph** is an advanced, interactive Streamlit app that helps you upload, clean, explore, and visualize datasets with ease. Designed with a modern UI and robust backend, it supports multiple file formats, automatic visualizations, and download-ready insights.
