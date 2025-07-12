@@ -1,43 +1,73 @@
-# 📊 ZynfoGraph
+> #ZynfoGraph
 
-**ZynfoGraph** is an advanced, visually stunning, and user-friendly Streamlit application that empowers users to upload, clean, analyze, and visualize datasets effortlessly. Whether you're a data enthusiast, analyst, or student, ZynfoGraph provides interactive dashboards, smart visualizations, and export-ready insights — all from your browser.
+<p align="center">
+  <img src="https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg" alt="ZynfoGraph Icon" width="120"/>
+</p>
 
-![ZynfoGraph](https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg)
+**ZynfoGraph** is an advanced, interactive Streamlit app that helps you upload, clean, explore, and visualize datasets with ease. Designed with a modern UI and robust backend, it supports multiple file formats, automatic visualizations, and download-ready insights.
 
 ---
 
 ## 🚀 Features
 
-- 📁 **Multi-format Support**: Upload CSV, Excel, JSON, TXT, TSV, and Parquet files.
-- 🧹 **Smart Data Cleaning**: Remove duplicates, handle missing values, and prepare clean datasets.
-- 📈 **Advanced Visualizations**: Generate scatter, line, bar, histogram, violin, box, and heatmap plots with Plotly.
-- 📊 **Deep Data Profiling**: View memory usage, missing values, column types, and summary stats.
-- 📥 **Download Options**: Export plots as PNG/PDF/HTML and download cleaned data as CSV or Excel.
-- 📋 **Insightful Reports**: Generate markdown reports detailing your dataset.
+- 📁 **Multi-format Support**: CSV, Excel, JSON, TXT, TSV, and Parquet
+- 🧹 **Smart Data Cleaning**: Remove duplicates and handle missing values
+- 📊 **Visualizations**: Scatter, Line, Bar, Histogram, Box, Violin, Heatmap
+- 🔍 **Data Profiling**: Shape, types, missing %, duplicates, memory stats
+- 🧮 **Analysis Tools**: Correlation matrix & Outlier detection
+- 📥 **Download Options**: Plots as PNG/PDF/HTML & data as CSV/Excel
+- 📋 **Markdown Reports**: Dataset summaries and insights
 
 ---
 
-## 🖼️ Screenshots
+## 📥 Export & Download Features
 
-| Dashboard Overview | Interactive Visuals |
-|-------------------|---------------------|
-| ![Overview](https://i.postimg.cc/0N5Dwsmz/overview-sample.png) | ![Visuals](https://i.postimg.cc/VLhjWDvw/plot-sample.png) |
+ZynfoGraph supports one-click export features:
 
----
+- **🔽 Cleaned Data**
+  - 📄 Export as **CSV**
+  - 📊 Export as **Excel (.xlsx)** with Correlation Matrix sheet
+
+- **📉 Visualizations**
+  - 📸 Download plots as **PNG**
+  - 🧾 Download plots as **PDF**
+  - 🌐 Download interactive **HTML** versions of plots
+
+- **📝 Markdown Report**
+  - Summarizes:
+    - File name, shape, memory usage
+    - Missing values, completeness %
+    - Column types and cleaning steps
+
+-------------------------------------------------------------------------------------------------------
+ *"Predicting the future isn’t magic, it’s artificial intelligence."* 
+ -------------------------------------------------------------------------------------------------------
+**🔗 Get In Touch :**
+
+> **Connect with me on LinkedIn:**  
+[<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="24" height="24" style="vertical-align:middle;"/> LinkedIn Profile](https://www.linkedin.com/in/nandeesh71)
+
+> **Visit my portfolio:**  
+[<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" width="24" height="24" style="vertical-align:middle;"/> Portfolio Website](https://nandeesh-71.web.app)
+
+-------------------------------------------------------------------------------------------------------
 
 ## ⚙️ Installation
 
 ```bash
-# Clone the repository
+# Clone this repository
 git clone https://github.com/nandeesh71/ZynfoGraph.git
 cd ZynfoGraph
 
-# Create a virtual environment (recommended)
+# (Optional but recommended) Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install dependencies
+# Install all dependencies
 pip install -r requirements.txt
 
-# Run the app
+# Launch the app
 streamlit run ZynfoGraph.py
+
+
+
