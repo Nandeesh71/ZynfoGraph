@@ -1,7 +1,7 @@
 > ZynfoGraph...
 
 <p align="center">
-  <img src="https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg" alt="ZynfoGraph Logo" width="100" height="100">
+  <img src="https://i.postimg.cc/nrL8ScR2/Zynfo-Graph-icon.jpg" alt="ZynfoGraph Logo" width="144" height="144">
 </p>
 
 
